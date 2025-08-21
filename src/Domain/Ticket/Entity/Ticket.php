@@ -2,9 +2,9 @@
 
 namespace App\Domain\Ticket\Entity;
 
-use App\Domain\Ticket\Enum\TicketPriority;
-use App\Domain\Ticket\Enum\TicketStatus;
 use App\Domain\Ticket\Repository\TicketRepository;
+use App\Domain\Ticket\ValueObject\TicketPriority;
+use App\Domain\Ticket\ValueObject\TicketStatus;
 use App\Domain\User\Entity\User;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;

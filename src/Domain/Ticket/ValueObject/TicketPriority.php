@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Ticket\Enum;
+namespace App\Domain\Ticket\ValueObject;
 
 use App\Infrastructure\Shared\Traits\EnumHelper;
 

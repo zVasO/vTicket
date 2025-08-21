@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Ticket\Enum;
+namespace App\Domain\Ticket\ValueObject;
 
 enum TicketStatus: string
 {
