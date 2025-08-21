@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Entity;
+namespace App\Domain\Ticket\Entity;
 
-use App\Enum\TicketPriority;
-use App\Enum\TicketStatus;
-use App\Repository\TicketRepository;
+use App\Domain\Ticket\Enum\TicketPriority;
+use App\Domain\Ticket\Enum\TicketStatus;
+use App\Domain\Ticket\Repository\TicketRepository;
+use App\Domain\User\Entity\User;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;

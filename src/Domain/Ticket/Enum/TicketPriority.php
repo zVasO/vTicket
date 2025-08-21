@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Enum;
+namespace App\Domain\Ticket\Enum;
 
-use App\Trait\EnumHelper;
+use App\Infrastructure\Shared\Traits\EnumHelper;
 
 enum TicketPriority: string
 {

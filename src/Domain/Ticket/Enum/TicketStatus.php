@@ -1,8 +1,6 @@
 <?php
 
-namespace App\Enum;
-
-use App\Trait\EnumHelper;
+namespace App\Domain\Ticket\Enum;
 
 enum TicketStatus: string
 {

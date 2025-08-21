@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Trait;
+namespace App\Infrastructure\Shared\Traits;
 
 trait EnumHelper
 {
